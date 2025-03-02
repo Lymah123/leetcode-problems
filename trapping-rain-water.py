@@ -20,6 +20,8 @@
 # 0 <= length <= 105
 
 # Solution to the question
+from typing import List
+
 class Solution:
     def trap(self, height: List[int]) -> int:
         if not height:
